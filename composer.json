@@ -1,0 +1,29 @@
+{
+    "name": "avcodewizard/block-by-country",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Avcodewizard\\BlockByCountry\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ankit Verma",
+            "email": "ankitv4087@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "torann/geoip": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avcodewizard\\BlockByCountry\\BlockByCountryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
