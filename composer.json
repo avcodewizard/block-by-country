@@ -15,8 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "torann/geoip": "*"
+        "php": "^7.3|^8.0"
     },
     "extra": {
         "laravel": {
